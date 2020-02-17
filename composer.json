@@ -1,5 +1,5 @@
 {
-  "name": "oneplace/oneplace-worktime-stamp",
+  "name": "jbinggi/oneplace-worktime-stamp",
   "description": "onePlace Worktime-Stamp Plugin. Register your time at work",
   "type": "oneplace-plugin",
   "version": "1.0.0",
@@ -22,7 +22,7 @@
   },
   "autoload": {
     "psr-4": {
-      "OnePlace\\Worktime\\Stamp\\": "src/"
+      "JBinggi\\Worktime\\Stamp\\": "src/"
     }
   },
   "autoload-dev": {
@@ -46,7 +46,7 @@
   },
   "extra": {
     "zf": {
-      "module": "OnePlace\\Worktime\\Stamp"
+      "module": "JBinggi\\Worktime\\Stamp"
     }
   }
 }

@@ -13,7 +13,7 @@
  * @since 1.0.0
  */
 
-namespace OnePlace\Worktime\Stamp;
+namespace JBinggi\Worktime\Stamp;
 
 use Application\Controller\CoreEntityController;
 use Laminas\Mvc\MvcEvent;
@@ -22,8 +22,8 @@ use Laminas\Db\TableGateway\TableGateway;
 use Laminas\Db\Adapter\AdapterInterface;
 use Laminas\EventManager\EventInterface as Event;
 use Laminas\ModuleManager\ModuleManager;
-use OnePlace\Worktime\Stamp\Controller\StampController;
-use OnePlace\Worktime\Stamp\Model\StampTable;
+use JBinggi\Worktime\Stamp\Controller\StampController;
+use JBinggi\Worktime\Stamp\Model\StampTable;
 
 class Module {
     /**
